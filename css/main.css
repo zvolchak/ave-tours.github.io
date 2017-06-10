@@ -1,0 +1,83 @@
+html, body{
+  width: 100%;
+}
+
+
+.brand{
+  background-image: url('../images/Brand_nav_bar.png');
+  width: 60px;
+  height: 10px;
+  margin: -15px -5px 0px -5px;
+  padding: 0px 0px 0px 0px;
+}
+
+.main-logo-container{
+  /*background-image: url('../images/headerBg.png');*/
+  width: 100%;
+  height: 500px;
+}
+
+.tour-info, .tour-info-1, .tour-info-2,
+.tour-info-4, .tour-info-5{
+  height: 180px;
+  letter-spacing: 20px;
+  padding-top: 55px;
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 5px solid #000000;
+  transition: all 0.2s linear;
+
+  text-shadow: 1px 0px 6px rgba(0, 0, 0, 1);
+
+  -webkit-box-shadow: inset 0px 0px 22px 7px rgba(0,0,0,0.75);
+  -moz-box-shadow: inset 0px 0px 22px 7px rgba(0,0,0,0.75);
+  box-shadow: inset 0px 0px 22px 7px rgba(0,0,0,0.75);
+}
+
+.tour-info:hover, .tour-info-1:hover, .tour-info-2:hover,
+.tour-info-4:hover, .tour-info-5:hover{
+  border-radius: 0px 0px 0px 0px;
+  -moz-border-radius: 0px 0px 0px 0px;
+  -webkit-border-radius: 0px 0px 0px 0px;
+  border: 7px solid #991c1c;
+
+  text-shadow: 0px -1px 17px rgba(0, 0, 0, 1);
+  /*text-shadow: 1px 0px 6px rgba(0, 0, 0, 1);*/
+}
+
+.tour-info-text{
+  font-family: "Times New Roman", Times, serif;
+  color: #FF9933;
+	font-weight:bold;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+.shadow-line{
+  -webkit-box-shadow: 0px 0px 79px 31px rgba(0,0,0,0.29);
+-moz-box-shadow: 0px 0px 79px 31px rgba(0,0,0,0.29);
+box-shadow: 0px 0px 79px 31px rgba(0,0,0,0.29);
+}
+
+.spacer-0{ height: 50px;}
+.spacer-1{ height: 100px;}
+.spacer-2{ height: 200px;}
+.spacer-3{ height: 300px;}
+.spacer-4{ height: 400px;}
+.spacer-5{ height: 500px;}
+
+.img-1{
+  background-image: url("../images/1.png");
+  width: 312px;
+  margin-left: -15px;
+  /*background-repeat: no-repeat;*/
+}
+
+.black{ background: black; }
+.red{ background: red; }
+.yellow{ background: yellow; }
+.orange{ background: orange; }
+.green{ background: green; }
+.blue{ background: blue; }
