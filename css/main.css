@@ -1,5 +1,29 @@
-html, body{
+.container-full {
+  margin: 0px auto;
   width: 100%;
+  height: auto;
+}
+
+.row{
+  max-width: 100%;
+  padding: 0px auto;
+  margin: 0px auto;
+}
+
+.modal.modal-wide .modal-dialog {
+  font-size: 23px;
+  width: 60%;
+}
+
+.modal-body {
+    min-height: 500px;
+}
+
+html, body{
+  /*width: 100%;*/
+  /*margin-left: 0.5%;*/
+  height: 2000px;
+  text-align: justify;
 }
 
 
@@ -17,11 +41,41 @@ html, body{
   height: 500px;
 }
 
+.divider {
+  height: 3px;
+  width:90%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 25px;
+  -webkit-box-shadow: 0px -4px 24px 0px rgba(50, 50, 50, 1);
+  -moz-box-shadow:    0px -4px 24px 0px rgba(50, 50, 50, 1);
+  box-shadow:         0px -4px 24px 0px rgba(50, 50, 50, 1);
+}
+
+.shadow-top{
+  -webkit-box-shadow: 1px -14px 56px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 1px -14px 56px -17px rgba(255,255,255,1);
+  box-shadow: 1px -14px 56px -17px rgba(255,255,255,1);
+}
+
+.shadow-bottom{
+  -webkit-box-shadow: 1px 14px 56px -17px rgba(255,255,255,1);
+  -moz-box-shadow: 1px 14px 56px -17px rgba(255,255,255,1);
+  box-shadow: 1px 14px 56px -17px rgba(255,255,255,1);
+}
+
+
 .tour-info, .tour-info-1, .tour-info-2,
 .tour-info-4, .tour-info-5{
+  cursor: pointer;
   height: 180px;
   letter-spacing: 20px;
-  padding-top: 55px;
+  padding-top: 2%;
+  display: inline-block;
+  text-align: center;
+  float:none;
   border-radius: 0px 0px 0px 0px;
   -moz-border-radius: 0px 0px 0px 0px;
   -webkit-border-radius: 0px 0px 0px 0px;
@@ -50,7 +104,6 @@ html, body{
   font-family: "Times New Roman", Times, serif;
   color: #FF9933;
 	font-weight:bold;
-	text-align: center;
 	text-transform: uppercase;
 }
 

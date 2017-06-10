@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Ave tours</title>
+
+    <link href="css/main.css" rel="stylesheet" media="screen"/>
+    <link href="css/text-formatting.css" rel="stylesheet" media="screen"/>
+    <link href="plugins/bootstrap-3.3.5-dist/css/bootstrap.css" rel="stylesheet" media="screen"/>
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/tours.js"></script>
+    <script src="js/main.js"></script>
+    <script src="plugins/bootstrap-3.3.5-dist/js/bootstrap.js"></script>
+  </head>
+
+  <body>
+    <div class="container-full">
+      <nav class="navbar navbar-inverse" style="border-radius: 0px; margin-bottom: 0px;">
+        <div class="container-fluid">
+
+          <div>
+            <ul class="nav navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li><a href="#info">Info</a></li>
+              <li><a href="#tours">Tours</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-full">
+        <div class="main-logo-container" style="background-image: url('images/mainBg.png');">
+          <div class="col-md-9">
+            <img src="images/Brand_main.png" class="img-responsive" alt="Ave Tours">
+          </div>
+          <div class="col-md-3" style="text-align: center; margin-top: 20%; background-color:white; border-radius: 25px 0px 0px 0px;
+                                                                                -moz-border-radius: 25px 0px 0px 0px;
+                                                                                -webkit-border-radius: 25px 0px 0px 0px;
+                                                                                border: 1px solid #000000;">
+            <h3>Алена Волчек</h3>
+            <h4>Телефон: (720) 412 - 4116</h4>
+            <h4>Email: av.volchak@gmail.com</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-full" id="info" style="background-image: url('images/infoBg.png'); background-repeat: no-repeat;">
+        <div class="spacer-0 shadow-top"></div>
+        <div class="container-full">
+          <h2 class="headline"><b>Приветствую всех заинтересованных в путешествиях людей и тех, кто в ожидании новых открытий!</b></h2>
+          <h3 class="headline"><b>Украсьте свой досуг приятным времяпрепровождением!</b></h3>
+
+          <div class="divider" style="margin-left: 5%;"></div>
+          <div class="spacer-0"></div>
+
+          <!-- <div class="col-md-2"></div> -->
+
+          <!-- <div class="col-md-8"> -->
+            <p class="info-text" style="margin-left: 3%; margin-right: 3%;">
+              &nbsp Я, ЕЛЕНА ВОЛЧЕК - профессиональный экскурсовод. После окончания Белорусского государственного Университета(город МИНСК),
+              географического факультета, специализация "Краеведение, методика и организация туристско-экскурсионного дела", подготовила,
+              освоила и успешно проводила экскурсии по Беларуси, городам соседних государств, сопровождала туристско-экскурсионные группы в
+              страны Западной Европы, Азиатские регионы, а также знакомила с удивительными местами Колорадо, в частности-Денвера и его окрестностями.
+            </p>
+              <h3 class="headline"><b>Имею сертификат подтверждения профессиональной деятельности.</b></h3>
+            <p class="info-text" style="margin-left: 3%; margin-right: 3%; margin-top: 2%;">
+              &nbsp С первых шагов по земле Колорадо стало очевидно- экскурсионный потенциал безграничен. Создала эксклюзивные экскурсии и хотелось
+              бы жителей прекрасного региона США глубже познакомить с удивительной природой, историко-культурными достопримечательностями и тем,
+              что расположено на этих просторах загадочности. Вместе с Вами будем проводить на экскурсионных тропах и великих дорогах от 2,5
+              часов(в зависимости от насыщенности маршрута экскурсионными объектами).
+            </p>
+            <p class="info-text" style="margin-left: 3%; margin-right: 3%;">
+              Природа и история, традиции и тесная связь прошлого и настоящего- приятно удивят
+              Вас и сделают Ваш отдых необычным и запоминающим!!!
+            </p>
+            <h3 class="headline"><b>В ДОБРЫЙ ПУТЬ - ЗА НОВЫМИ ВПЕЧАТЛЕНИЯМИ!!!</b></h3>
+        </div>
+        <div class="spacer-1 shadow-bottom"></div>
+      </div> <!-- Midle, info -->
+
+
+      <div class="container-full" id="tours" style="background-image: url('images/toursBg.png')">
+            <div class="divider shadow-bottom" style="width: 100%; height: 2px;
+                                                      -webkit-box-shadow: 0px 4px 26px 0px rgba(255, 255, 255, 1);
+                                                      -moz-box-shadow:    0px 4px 26px 0px rgba(255, 255, 255, 1);
+                                                      box-shadow:         0px 4px 26px 0px rgba(255, 255, 255, 1);"></div>
+            <div class="spacer-0"></div>
+
+            <h2 style="color: white;text-align:center;">ЭКСКУРСИИ</h2>
+            <div class="divider" style="width: 45%; margin-left: 28%; background-color: white;"></div>
+            <div class="spacer-0"></div>
+
+            <div class="row">
+              <div class="col-sm-1" style="margin-right: 4%;"></div>
+
+              <div class="col-sm-4 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('GrdnGds')"
+                   style="font-size: 40px; padding-top:35px; background-image: url('images/tourGardenGods.png');">
+                <h2 class="tour-info-text"> GARDEN OF THE GODS </h2>
+              </div>
+
+              <div class="col-sm-2 tour-info" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('RdRcks')"
+                   style="margin-left: 0.5%; font-size: 40px; padding-top:30px; background-image: url('images/tourRedRocks.png');">
+                <h2 class="tour-info-text"> RED ROCKS </h2>
+              </div>
+
+              <div class="col-sm-3 tour-info" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('LtltnMnrs')"
+                   style="margin-left: 0.5%;  font-size: 40px; padding-top: 30px; background-image: url('images/tourLittleton.png');">
+                <h2 class="tour-info-text"> LITTLETON MANORS </h2>
+              </div>
+            </div>
+
+
+            <div class="row" style="margin-top: 5px;">
+              <div class="col-sm-1" style="margin-right: 4%;"></div>
+
+              <div class="col-sm-2 tour-info-4" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('DwntwnDnvr')"
+                   style="font-size: 50px; background-image: url('images/tourDenver.png');">
+                <h2 class="tour-info-text" style="letter-spacing: 10px;"> DOWNTOWN DENVER </h2>
+              </div>
+              <div class="col-sm-3 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('MotCabShr')"
+                   style="margin-left: 0.5%; font-size: 40px; padding-top: 1.1%; background-image: url('images/tourCabrini.png');">
+                <h2 class="tour-info-text"> MOTHER CABRINI SHRINE </h2>
+              </div>
+              <div class="col-sm-4 tour-info" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('HistCoCntr')"
+                   style="margin-left: 0.5%; font-size: 45px; background-image: url('images/tourHistoryCenter.png')">
+                <h2 class="tour-info-text" style="letter-spacing: 13px;"> HISTORY COLORADO CENTER </h2>
+              </div>
+            </div>
+
+            <div class="row" style="margin-top: 5px;">
+              <div class="col-sm-1" style="margin-right: 4%;"></div>
+
+              <div class="col-sm-4 tour-info" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('LktMntns')"
+                   style="font-size: 34px; padding-top: 1.4%; background-image: url('images/tourLookout.png');">
+                <h2 class="tour-info-text" style="letter-spacing"> LOOKOUT MOUNTAIN </h2>
+              </div>
+              <div class="col-sm-3 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('DnvrAqua')"
+                   style="margin-left: 0.5%; font-size: 40px; padding-top: 1.6%; background-image: url('images/tourAqua.png');">
+                <h2 class="tour-info-text"> DENVER AQUARIUM </h2>
+              </div>
+
+              <div class="col-sm-2 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('USMnt')"
+                   style="margin-left: 0.5%; font-size: 40px; letter-spacing: 10px; padding-top:2.4%; background-image: url('images/tourMint.png');">
+                <h1 class="tour-info-text"> U.S. MINT </h1>
+              </div>
+            </div>
+
+
+            <div class="spacer-0"></div>
+
+            <h2 style="color: white; text-align:center;">НОВЫЕ ЭКСКУРСИИ</h2>
+            <div class="divider" style="width: 45%; margin-left: 28%; background-color: white;"></div>
+            <div class="spacer-0"></div>
+
+            <div class="row" style="margin-top: 5px;">
+              <div class="col-sm-2" style="margin-right: 9%;"></div>
+
+              <div class="col-sm-3 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('MollyBrown')"
+                   style="margin-left: 0.5%; font-size: 40px; padding-top: 0.7%; background-image: url('images/tourMollyBrown.png');">
+                <h2 class="tour-info-text"> Molly Brown House </h2>
+              </div>
+
+              <div class="col-sm-3 tour-info black" data-toggle="modal" data-target="#tourInfoModel"
+                   onclick="ShowTourInfo('Sculptures')"
+                   style="margin-left: 0.5%; font-size: 40px; padding-top: 1.6%; background-image: url('images/tourSculptures.png');">
+                <h2 class="tour-info-text"> Sculptures of Denver </h2>
+              </div>
+
+            </div>
+
+
+
+            <div class="spacer-0"></div>
+
+            <h2 style="color: white; text-align:center;">СEЗОННЫЕ ЭКСКУРСИИ</h2>
+            <div class="divider" style="width: 45%; margin-left: 28%; background-color: white;"></div>
+
+            <div class="spacer-0"></div>
+
+            <div class="row" data-toggle="modal" data-target="#tourInfoModel"
+                 onclick="ShowTourInfo('ChrstmsLghts')"
+                 style="margin-top: 5px;">
+
+              <div class="col-sm-4" style="margin-right: 1%;"></div>
+              <div class="col-sm-4 tour-info" style="font-size: 40px; padding-top: 35px; background-image: url('images/tourLights.png')">
+                <h2 class="tour-info-text" style="letter-spacing: 10px;"> CHRISTMAS LIGHTS OF DENVER </h2>
+              </div>
+            </div>
+
+
+
+            <!-- Modal -->
+            <div class="modal modal-wide fade" id="tourInfoModel" tabindex="-1" role="dialog" aria-labelledby="tourInfoModelTitle">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header" style="background-image: url('images/popup_header.png'); color: black;">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+                    <h4 class="modal-title" id="tourInfoModelTitle" style="font-weight: bold;">
+                    </h4>
+
+                  </div>
+                  <div class="modal-body">
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="spacer-1"></div>
+            <div class="divider shadow-top" style="width: 100%;"></div>
+      </div>
+
+    <div class="container-full">
+      <div class="spacer-0"></div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="text-align: center;">
+          <h4>Алена Волчек</h4>
+          <h4>Телефон: (720) 412 - 4116</h4>
+          <h4>Email: av.volchak<img src="images/at.png">gmail.com</h4>
+        </div>
+      </div>
+      <div class="spacer-0"></div>
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4 divider" style="height: 1px;">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" style="text-align: center;">
+          <h5> Copyright © 2016 Built by Ave-Tours.</h5>
+          <h6 style="margin-top: 10%;"> Resources used on the page</h5>
+        </div>
+      </div>
+
+      <!-- <div class="spacer-0"></div> -->
+
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-3" style="margin-left: 2%; padding-left: 7%;">
+          <h6>Black 'n' White Photo of Denver by JC Buck: <a href="https://500px.com/photo/89253977/untitled-by-jc-buck">source</a></h6>
+          <h6>Middle Colored Photo of Denver Photo taken from: <a href="http://www.wallpaperup.com/165883/Usa_Denver_Colorado_skyline.html">source</a></h6>
+          <h6>Garden Of The Gods: <a href="http://www.theroaminglama.com/Portfolio/Denver/i-pg7p4ct/A">source</a></h6>
+          <h6>Red Rocks: <a href="https://www.flickr.com/photos/visualsensory/10832136046">by Corey Thompson</a></h6>
+          <h6>Littleton Manors: <a href="http://www.volkelimageblog.com/heather-don-wedding-at-the-manor-house-ken-caryl-ranch/">source</a></h6>
+          <h6>Downtown Denver: <a href="http://www.confluence-denver.com/galleries/Features/2013/Issue_25/sean_brown_03.jpg">source</a></h6>
+          <h6>Molly Brown House: <a href="http://www.denverpost.com/ci_19969752">by David Zalubowski</a></h6>
+        </div>
+        <div class="col-md-4" style="margin-left: 2%; padding-left: 2%;">
+          <h6>History Colorado Center: <a href="http://images1.westword.com/imager/u/original/7051859/historycolorado-tryba.jpg">source</a></h6>
+          <h6>Lookout Mountain: <a href="http://www.juliannebrasher.com/wp-content/uploads/2013/06/lookout-mountain-08.jpg">source</a></h6>
+          <h6>Mother Cabrini Shrine: <a href="http://spiritualdirection.com/wp-content/uploads/2013/11/SacredHeartmothercabrinishrine201321.jpg">source</a></h6>
+          <h6>U.S. Mint: <a href="http://www.coincommunity.com/mints/images/Denver_Mint.jpg">source</a></h6>
+          <h6>Denver Aquarium: <a href="http://www.coloradoskiauthority.com/images/denver/denver-aquarium.jpg">source</a></h6>
+          <h6>Christmas Lights of Denver: <a href="http://www.thechristmaskings.com/assets/public/images/home/2.jpg">source</a></h6>
+          <h6>Sculptures of Denver: <a href="http://artsandvenuesdenver.com/images/art_collection/_bigger/BB_Jazz001.jpg">source</a></h6>
+        </div>
+      </div>
+      <div class="spacer-1"></div>
+    </div>
+
+
+    </div>
+  </body>
+</html>
